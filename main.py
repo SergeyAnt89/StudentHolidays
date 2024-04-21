@@ -37,5 +37,5 @@ def write_holiday_cities(first_letter):
         writer.writerow(['Никогда не были в:', ', '.join(sorted(not_visited))])
         writer.writerow(['Следующим городом будет:', next_city])
 
-# Пример использования функции: вызываем функцию для студентов, имена которых начинаются с 'L'
+# Пример использования функции: вызываем функцию для студентов, имена которых начинаются с 'R'
 write_holiday_cities('R')
