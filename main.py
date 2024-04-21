@@ -38,4 +38,4 @@ def write_holiday_cities(first_letter):
         writer.writerow(['Следующим городом будет:', next_city])
 
 # Пример использования функции: вызываем функцию для студентов, имена которых начинаются с 'L'
-write_holiday_cities('L')
+write_holiday_cities('R')
